@@ -1,5 +1,10 @@
 # Bike-Sharing-Demand
 # Data Source: https://www.kaggle.com/c/bike-sharing-demand/data
+Public Leaderboard RMSLE: 0.48725  
+Baseline 대비 약 14% 개선
+First Submission: 0.56722  
+Best Score: 0.48725
+
 🚲 Bike Sharing Demand Prediction (with AutoGluon)
 워싱턴 D.C.의 자전거 대여 이력 데이터를 분석하여 시간별 수요를 예측하는 프로젝트입니다. 본 프로젝트는 데이터의 물리적 특성을 이해하고, 생성형 AI와의 협업을 통해 이상치 수사 및 정제에 집중하여 모델의 신뢰성을 확보하는 데 목적이 있습니다.
 
