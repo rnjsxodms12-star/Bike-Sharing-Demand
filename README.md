@@ -2,6 +2,7 @@
 # Data Source: https://www.kaggle.com/c/bike-sharing-demand/data
 Public Leaderboard RMSLE: 0.48725  
 Baseline 대비 약 14% 개선
+
 First Submission: 0.56722 [Baseline (AutoGluon default)]  
 Best Score: 0.48725
 
