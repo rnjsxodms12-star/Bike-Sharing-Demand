@@ -32,7 +32,7 @@ datetime 컬럼을 분해하여 Hour(시간), Month(월), Weekday(요일) 정보
 **Workingday(평일 여부)**에 따른 시간대별 대여 패턴 차이를 분석하여 모델의 주요 단서로 활용했습니다.
 
 3. 머신러닝 모델링 (AutoGluon)
-AutoGluon의 best_quality 프리셋을 사용하여 900초간 다수의 모델을 앙상블 학습시켰습니다.
+AutoGluon의 best_quality 프리셋을 사용하여 600초간 다수의 모델을 앙상블 학습시켰습니다.
 
 수동적인 하이퍼파라미터 튜닝 대신, 모델 간의 가중치 최적화를 통해 강력한 예측 성능을 도출했습니다.
 
@@ -61,6 +61,6 @@ BSD0210발표순서 및 흐름.txt:
 🚀 시작하기 (How to Run)
 본 저장소를 클론(Clone)합니다.
 
-data/ 폴더 내에 Kaggle에서 제공하는 train.csv, test.csv를 배치합니다.
+data/ 폴더 내에 Kaggle에서 제공하는 train.csv, test.csv, sampleSubmisson.csv를 배치합니다.
 
 통합노트북.ipynb를 실행하여 데이터 전처리 및 모델 학습을 진행합니다.
