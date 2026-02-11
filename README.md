@@ -80,3 +80,7 @@ Lessons Learned
 4. eda 조금 더 신경 써주기
 5. automl은 가능하면 기존 베이스 코드랑 선발 비교용으로 한번, 그리고 마지막에만 쓰기.
 6. 기회가 되면 pca나 k-means 같은 것으로 대용량 다뤄보기
+
+작성자: [권태은]
+최종 수정일: 2026-02-11
+Kaggle Status: Contributor
