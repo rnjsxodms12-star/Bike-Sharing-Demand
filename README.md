@@ -5,6 +5,7 @@ Baseline 대비 약 14% 개선
 
 First Submission: 0.56722 [Baseline (AutoGluon default)]  
 Best Score: 0.48725
+
 Windspeed 측정 오류 보정 가설 실험	0.50060	(Data Insight)
 
 🚲 Bike Sharing Demand Prediction (with AutoGluon)
