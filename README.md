@@ -8,10 +8,10 @@ Best Score: 0.48725
 
 Windspeed 측정 오류 보정 가설 실험	0.50060	(Data Insight)
 
-🚲 Bike Sharing Demand Prediction (with AutoGluon)
+# 🚲 Bike Sharing Demand Prediction (with AutoGluon)
 워싱턴 D.C.의 자전거 대여 이력 데이터를 분석하여 시간별 수요를 예측하는 프로젝트입니다. 본 프로젝트는 데이터의 물리적 특성을 이해하고, 생성형 AI와의 협업을 통해 이상치 수사 및 정제에 집중하여 모델의 신뢰성을 확보하는 데 목적이 있습니다.
 
-🕵️ 수사 개요 (Project Overview)
+# 🕵️ 수사 개요 (Project Overview)
 목표: 매 시간(Hourly) 자전거 총 대여 수(count) 예측
 
 데이터 구성:
@@ -24,7 +24,7 @@ Windspeed 측정 오류 보정 가설 실험	0.50060	(Data Insight)
 
 실제값과 예측값의 '비율'에 집중하며, 과소평가(Underestimation)에 더 큰 페널티를 부여하는 지표입니다.
 
-🛠️ 주요 수사 기법 (Key Methodologies)
+# 🛠️ 주요 수사 기법 (Key Methodologies)
 1. 풍속(Windspeed) 데이터 이상치 보정
 문제점: 데이터 탐색 결과, 풍속이 0이거나 10 미만인 데이터가 비정상적으로 많이 분포하는 것을 확인했습니다.
 
@@ -44,7 +44,7 @@ AutoGluon의 best_quality 프리셋을 사용하여 600초간 다수의 모델�
 
 수동적인 하이퍼파라미터 튜닝 대신, 모델 간의 가중치 최적화를 통해 강력한 예측 성능을 도출했습니다.
 
-📂 저장소 파일 안내 (File Manifest)
+# 📂 저장소 파일 안내 (File Manifest)
 통합노트북.ipynb:
 
 데이터 로드부터 전처리, AutoGluon 학습 및 최종 제출 파일 생성까지 포함된 메인 수사 기록입니다.
@@ -61,19 +61,19 @@ BSD0210발표순서 및 흐름.txt:
 
 생성형 AI를 활용한 자료 조사부터 최종 분석까지의 논리적 수사 경로를 정리한 시나리오입니다.
 
-📊 수사 결과 요약 (Insights)
+# 📊 수사 결과 요약 (Insights)
 시간대별 패턴: 평일 출퇴근 시간대(8시, 17~18시)에 수요가 집중되는 명확한 패턴을 확인했습니다.
 
 데이터 정제의 가치: 풍속 이상치를 보정함으로써 모델이 노이즈에 휘둘리지 않고 보다 안정적인 예측을 수행할 수 있는 환경을 조성했습니다.
 
-🚀 시작하기 (How to Run)
+# 🚀 시작하기 (How to Run)
 본 저장소를 클론(Clone)합니다.
 
 data/ 폴더 내에 Kaggle에서 제공하는 train.csv, test.csv, sampleSubmisson.csv를 배치합니다.
 
 통합노트북.ipynb를 실행하여 데이터 전처리 및 모델 학습을 진행합니다.
 
-Lessons Learned
+# Lessons Learned
 1. 형태변환 시키고 나서 마지막에 shape로 형태 확인하기.
 2. 생성형ai가 그래프 설명해준다고 곧이 곧대로 믿지말고 직접 그래프 그려서 확인하기
 3. 이유없이 의미없는 그래프 그리지말기
